@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="Stylesheet" href="grocerystore.css">
+</head>
+<body background="bg3.jpeg">
+    <header><h1 align="center">Insta Mart</h1></header>
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#grocery">Grocery</a></li>
+            <li><a href="#fruits">Fruits&Vegetables</a></li>
+            <li><a href="#order">Place Order</a></li>
+        </ul>
+    </nav>
+    <section id="Home">
+        <h2 align="left">Welcome to Insta Mart – Your One-Stop Grocery Destination!</h2>
+        At Insta Mart, we bring fresh flavors and everyday essentials straight to your doorstep. Whether you're stocking up on pantry staples, looking for farm-fresh produce, or craving your favorite snacks, we've got it all covered.
+        <h2 align="left">Why Choose Insta Mart?</h2>
+        ✅ Fresh & Quality Assured – Only the best, straight from trusted sources.<br>
+        ✅ Wide Variety – From local favorites to global brands, find everything in one place.<br>
+        ✅ Instant Delivery – Your groceries, delivered fast and hassle-free.<br>
+        ✅ Easy & Secure Shopping – A seamless experience, every time.<br><br>
+        Shop smarter, live better – experience convenience like never before at Insta Mart! Start filling your cart today.🛒
+        <h2 align="center">Customer Testimonials Section</h2>
+        "Insta Mart is a lifesaver! Fresh produce and daily essentials delivered on time, every time."<b>- Priya S.</b><br><br> 
+        "I love the convenience and incredible deals."<b>- Aakash R.</b><br><br>
+        "A perfect experience every time!"<b>- Logasri B.</b>
+    </section><br>
+    <h1 align="center">Grocery Items</h1>
+    <section id="grocery">
+        <div class="rice">
+            <img src="Rice.jpg">
+            <h1 align="center">Basmathi Rice</h1>
+            <b>Brand: </b>India Gate<br><br>
+            <b>Price: </b>Rs.630<br><br>
+            <b>Qnty:  </b>5Kg<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="pack" placeholder="Enter no of packs needed"><br><br>
+            <button onclick="cart()">Add to cart</button>
+        </div>
+        <div class="wheat">
+            <img src="wheat.jpg">
+            <h1 align="center">Wheat</h1>
+            <b>Brand: </b>Ashirwad<br><br>
+            <b>Price: </b>RS.799<br><br>
+            <b>Qnty:  </b>10kg<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="wp" placeholder="Enter no of packs needed"><br><br>
+            <button onclick="cart1()">Add to cart</button>
+        </div>
+        <div class="Goil">
+            <img src="Goil.jpg">
+            <h1 align="center">Groundnut Oil</h1>
+            <b>Brand: </b>Mr.Gold<br><br>
+            <b>Price: </b>RS.350<br><br>
+            <b>Qnty:  </b>1L<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="gop" placeholder="Enter no of packs needed"><br><br>
+            <button onclick="cart2()">Add to cart</button>
+        </div>
+        <div class="Suoil">
+            <img src="Suoil.jpg">
+            <h1 align="center">Sunflower Oil</h1>
+            <b>Brand: </b>Gold Winner<br><br>
+            <b>Price: </b>RS.180<br><br>
+            <b>Qnty:  </b>1L<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="sop" placeholder="Enter no of packs needed"><br><br>
+            <button onclick="cart3()">Add to cart</button>
+        </div>
+        <div class="Bread">
+            <img src="bread.jpg">
+            <h1 align="center">Bread</h1>
+            <b>Brand: </b>Britania<br><br>
+            <b>Price: </b>RS.45<br><br>
+            <b>Qnty:  </b>450g<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="brp" placeholder="Enter no of packs needed"><br><br>
+            <button onclick="cart4()">Add to cart</button>
+        </div>
+        <div class="Oreo">
+            <img src="oreo.jpg">
+            <h1 align="center">Oreo</h1>
+            <b>Brand: </b>Cadbury<br><br>
+            <b>Price: </b>RS.20<br><br>
+            <b>Qnty:  </b>120g<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="bip" placeholder="Enter no of packs needed"><br><br>
+            <button onclick="cart5()">Add to cart</button>
+        </div>
+        <div class="other">
+            <h1 align="center">Other Groceries and Snacks</h1>
+            If you're looking for other groceries and snacks, You can use this field<br><br><br>
+            <a href="othergro.html"><button>Click Here</button></a>
+        </div>
+    </section>
+    <h1 align="center">Fruits and Vegetables</h1>
+    <section id="fruits">
+        <div class="Apple">
+            <img src="apple.jpg">
+            <h1 align="center">Apple</h1>
+            <b>Type: </b>Fruit<br><br>
+            <b>Price: </b>RS.145<br><br>
+            <b>Qnty:  </b>1kg<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="app" placeholder="Enter how much needed"><br><br>
+            <button onclick="kart()">Add to cart</button>
+        </div>
+        <div class="potato">
+            <img src="potato.jpg">
+            <h1 align="center">Potato</h1>
+            <b>Type: </b>Vegetable<br><br>
+            <b>Price: </b>RS.60<br><br>
+            <b>Qnty:  </b>1kg<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="pot" placeholder="Enter how much needed"><br><br>
+            <button onclick="kart1()">Add to cart</button>
+        </div>
+        <div class="wapple">
+            <img src="waterapple.jpg">
+            <h1 align="center">Water Apple</h1>
+            <b>Type: </b>Fruit<br><br>
+            <b>Price: </b>RS.50<br><br>
+            <b>Qnty:  </b>1kg<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="wop" placeholder="Enter how much needed"><br><br>
+            <button onclick="kart2()">Add to cart</button>
+        </div>
+        <div class="cauli">
+            <img src="cf.jpg">
+            <h1 align="center">CauliFlower</h1>
+            <b>Type: </b>Vegetable<br><br>
+            <b>Price: </b>RS.25<br><br>
+            <b>Qnty:  </b>1<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="cop" placeholder="Enter how much needed"><br><br>
+            <button onclick="kart3()">Add to cart</button>
+        </div>
+        <div class="Orange">
+            <img src="orange.jpg">
+            <h1 align="center">Orange</h1>
+            <b>Type: </b>Fruit<br><br>
+            <b>Price: </b>RS.70<br><br>
+            <b>Qnty:  </b>1kg<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="org" placeholder="Enter how much needed"><br><br>
+            <button onclick="kart4()">Add to cart</button>
+        </div>
+        <div class="brinjal">
+            <img src="brinj.jpg">
+            <h1 align="center">Brinjal</h1>
+            <b>Brand: </b>Vegetable<br><br>
+            <b>Price: </b>RS.40<br><br>
+            <b>Qnty:  </b>1kg<br>
+            <h3 align="left">How much you Need?</h3>
+            <input type="number" id="bij" placeholder="Enter how much needed"><br><br>
+            <button onclick="cart5()">Add to cart</button>
+        </div>
+        <div class="otherfru">
+            <h1 align="center">Other Fruits and Vegetables</h1>
+            If you're looking for other Fruits and Vegetables, You can use this field<br><br><br>
+            <a href="otherfru.html"><button>Click Here</button></a>
+        </div>
+    </section>
+    <h1 align="center">Place order</h1>
+    <section id="order">
+        <div class="place">
+            <b>Name: </b><input type="text" id="nam" placeholder="Enter your name"><br><br>
+            <b>ph no: </b><input type="tel" id="pno" placeholder="Enter phone no"><br><br>
+            <b>Email: </b><input type="email" id="eml" placeholder="Enter your email"><br><br>
+            <b>Rate us:</b><br><br>
+            <select id="rtu">
+                <option>Rate us</option>
+                <option>outstanding</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Need improvements</option>
+                <option>poor</option>
+            </select><br><br>
+            <b>Comments:</b><br><br>
+            <textarea id="cmt" placeholder="write your comments here"></textarea><br><br>
+            <b>Address:</b><br><br>
+            <textarea id="adr" placeholder="Enter your Address here"></textarea><br><br>
+            <b>Payment:</b><br><br>
+            <select id="pym">
+                <option>Select Payment Mode</option>
+                <option>Cash on delivery</option>
+                <option>online payment</option>
+            </select><br><br>
+            <button onclick="place()">place order</button>
+        </div>
+    </section>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+     
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+     
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+     
+        <button type="submit">Submit</button>
+     </form>
+     
+     <script>
+        document.getElementById("contactForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+     
+            const data = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                message: document.getElementById("message").value,
+            };
+     
+            const response = await fetch("/submit", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(data),
+            });
+     
+            const result = await response.json();
+            alert(result.message);
+        });
+     </script>
+    <script>
+        function place()
+        {
+            var nm=document.getElementById("nam")
+            var ph=document.getElementById("pno")
+            var em=document.getElementById("eml")
+            var rt=document.getElementById("rtu")
+            var cm=document.getElementById("cmt")
+            var ad=document.getElementById("adr")
+            var py=document.getElementById("pym")
+            if(nm.value==""||ph.value==""||em.value==""||rt.value==""||cm.value==""||ad.value==""||py.value=="")
+        {
+            alert("Fill out all the required details")
+        }
+        else{
+            alert("Order placed")
+        }
+        }
+        function cart()
+        {
+            var num=document.getElementById("pack")
+            if(num.value<=0||num.value=="")
+            {
+                alert("Select no of Packs")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function cart1(){
+            var num1=document.getElementById("wp")
+            if(num1.value<=0||num1.value=="")
+            {
+                alert("Select no of Packs")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function cart2(){
+            var num2=document.getElementById("gop")
+            if(num2.value<=0||num2.value=="")
+            {
+                alert("Select no of Packs")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function cart3(){
+            var num3=document.getElementById("sop")
+            if(num3.value<=0||num3.value=="")
+            {
+                alert("Select no of Packs")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function cart4(){
+            var num4=document.getElementById("brp")
+            if(num4.value<=0||num4.value=="")
+            {
+                alert("Select no of Packs")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function cart5(){
+            var num5=document.getElementById("bip")
+            if(num5.value<=0||num5.value=="")
+            {
+                alert("Select no of Packs")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function kart()
+        {
+            var apple=document.getElementById("app")
+            if(apple.value<=0||apple.value=="")
+            {
+                alert("Select how much needed")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function kart1(){
+            var pot1=document.getElementById("pot")
+            if(pot1.value<=0||pot1.value=="")
+            {
+                alert("Select how much needed")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function kart2(){
+            var wop2=document.getElementById("wop")
+            if(wop2.value<=0||wop2.value=="")
+            {
+                alert("Select how much needed")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function kart3(){
+            var cop3=document.getElementById("cop")
+            if(cop3.value<=0||cop3.value=="")
+            {
+                alert("Select how much needed")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function kart4(){
+            var org4=document.getElementById("org")
+            if(org4.value<=0||org4.value=="")
+            {
+                alert("Select how much needed")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+        function kart5(){
+            var bij5=document.getElementById("bij")
+            if(bij5.value<=0||bij5.value=="")
+            {
+                alert("Select no of Packs")
+            }
+            else
+            {
+                alert("Added to Cart")
+            }
+        }
+    </script>
+</body>
+</html>

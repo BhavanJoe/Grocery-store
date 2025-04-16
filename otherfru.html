@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="othergro.css">
+</head>
+<body background="bg3.jpeg">
+    <header><h1 align="center">Insta Mart</h1></header>
+        <a href="grocerystore.html"><b>Home</b></a>
+        <div class="other">
+            <h1 align="center">If You Need Any other Fruits or Vegetables Fill out the Following</h1><br>
+            <b>Thing You Need: </b><input type="text" id="fyn" placeholder="enter what you need"><br><br>
+            <b>Type:          </b><input type="text" id="typ" placeholder="enter the brand"><br><br>
+            <b>Quantity:       </b><input type="text" id="qnty" placeholder="enter the quantity"><br><br>
+            <b>Enter your Address:</b><br><br><textarea id="drs"></textarea><br><br>
+            <b>Enter cont num: </b><input type="tel" id="teln"placeholder="enter your ph number"><br><br>
+            <button onclick="cart()">Add to cart</button>
+            <script>
+                function cart(){
+                    var fru=document.getElementById("fyn")
+                    var type=document.getElementById("typ")
+                    var qnt=document.getElementById("qnty")
+                    var addr=document.getElementById("drs")
+                    var ph=document.getElementById("teln")
+                    if(fru.value==""||type.value==""||qnt.value==""||addr.value==""||ph.value=="")
+                    {
+                        alert("fill all the details")
+                    }
+                    else
+                    {
+                        alert("Added to Cart")
+                    }
+                }
+            </script>
+        </div>
+</body>
+</html>

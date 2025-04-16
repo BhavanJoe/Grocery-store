@@ -1,0 +1,73 @@
+header{
+    background-color: rgb(252, 162, 7);
+    color: rgb(254, 246, 246);
+    width: 1250;
+}
+a{
+    margin-left:30px;
+    color: rgb(244, 241, 237);
+    margin-top:50px;
+    color: rgb(241, 238, 235);
+    background-color: orange;
+    border: 5px;
+    border-style: solid;
+    border-color: transparent;
+    width: 25px;
+}
+a:hover{
+    color: rgb(49, 155, 11);
+}
+body{
+    background-size: cover;
+}
+.other{
+    border:5px;
+    border-style: double;
+    width:560px;
+    height:550px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 320px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+input[type="text"]
+{
+    margin-left: 30px;
+    width:175px;
+}
+input[type="text"]:hover{
+    background-color: orange;
+    color: white;
+}
+input[type="number"]
+{
+    width:175px;
+}
+input[type="number"]:hover
+{
+    background-color: orange;
+    color: white;
+}
+textarea
+{
+    width:550px;
+    height:100px;
+}
+textarea:hover
+{
+    background-color: orange;
+    color: white;
+}
+input[type="tel"]:hover{
+    background-color: orange;
+    color: white;
+}
+button{
+    margin-left: 250px;
+    margin-top: 20px;
+    background-color: green;
+}
+button:hover{
+    background-color: orange;
+    color: white;
+}

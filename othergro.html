@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="othergro.css">
+</head>
+<body background="bg3.jpeg">
+        <header><h1 align="center">Insta Mart</h1></header>
+        <a href="grocerystore.html"><b>Home</b></a>
+        <div class="other">
+            <h1 align="center">If You Need Any other Groceries or Snacks Fill out the Following</h1><br>
+            <b>Thing You Need: </b><input type="text" id="tyn" placeholder="enter what you need"><br><br>
+            <b>Brand:          </b><input type="text" id="brd" placeholder="enter the brand"><br><br>
+            <b>Quantity:       </b><input type="text" id="qty" placeholder="enter the quantity"><br><br>
+            <b>How Many Pack Need? </b><input type="number" id="pck"placeholder="enter no of packs needed"><br><br>
+            <b>Enter your Address:</b><br><br><textarea id="txt"></textarea><br><br>
+            <b>Enter cont num: </b><input type="tel" id="tel"placeholder="enter your ph number"><br><br>
+            <button onclick="cart()">Add to cart</button>
+            <script>
+                function cart(){
+                    var thing=document.getElementById("tyn")
+                    var brnd=document.getElementById("brd")
+                    var qnty=document.getElementById("qty")
+                    var pack=document.getElementById("pck")
+                    var add=document.getElementById("txt")
+                    var ph=document.getElementById("tel")
+                    if(thing.value==""||brnd.value==""||qnty.value==""||pack.value<=0||add.value==""||tel.value=="")
+                    {
+                        alert("fill all the details")
+                    }
+                    else
+                    {
+                        alert("Added to Cart")
+                    }
+                }
+            </script>
+        </div>
+</body>
+</html>

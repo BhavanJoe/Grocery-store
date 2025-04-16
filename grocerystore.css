@@ -1,0 +1,300 @@
+header{
+    background-color: rgb(252, 162, 7);
+    color: rgb(254, 246, 246);
+    width: 1250;
+}
+nav{
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    position:sticky;
+    top:10px;
+}
+nav ul{
+    list-style: none;
+    background-color: orange;
+    height:30px;
+    width:1250px;
+    padding-top:5px;
+}nav ul li{
+    display:inline;
+}
+nav ul li a{
+    margin-left: 190px;
+    color: rgb(244, 241, 237);
+}
+nav ul li a:hover{
+    color: rgb(49, 155, 11);
+}
+body{
+    background-size: cover;
+}
+#Home{
+    border: 5px;
+    border-style: double;
+    width:560px;
+    height:550px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 320px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#grocery img{
+    width:250px;
+    height:250px;
+    margin-left: 15px;
+}
+#grocery .rice{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 50px;
+}
+#grocery h1{
+    background-color: orange;
+    color:white
+}
+body h1{
+    background-color: orange;
+    color: white;
+}
+#grocery input[type="number"]{
+    margin-left: 30px;
+    width:175px;
+}
+#grocery b{
+    padding-left:80px;
+}
+#grocery input[type="number"]:hover{
+    background-color: orange;
+    color: white;
+}
+#grocery button{
+    margin-left: 100px;
+    background-color: green;
+}
+#grocery button:hover{
+    background-color: orange;
+    color: white;
+}
+#grocery .wheat{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 450px;
+    margin-top: -558px;
+}
+#grocery .Goil{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 850px;
+    margin-top: -558px;
+}
+#grocery .Suoil{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#grocery .Bread{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 450px;
+    margin-top: -558px;
+}
+#grocery .Oreo{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 850px;
+    margin-top: -558px;
+}
+#grocery .other{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:200px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 429px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#fruits .Apple{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 50px;
+}
+#fruits img{
+    width:250px;
+    height:250px;
+    margin-left: 15px;
+}
+#fruits button{
+    margin-left: 100px;
+    background-color: green;
+}
+#fruits button:hover{
+    background-color: orange;
+    color: white;
+}
+#fruits input[type="number"]{
+    margin-left: 30px;
+    width:175px;
+}
+#fruits input[type="number"]:hover{
+    background-color: orange;
+    color: white;
+}
+#fruits b{
+    padding-left:80px;
+}
+#fruits .potato{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 450px;
+    margin-top: -558px;
+}
+#fruits .wapple{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 850px;
+    margin-top: -558px;
+}
+#fruits .cauli{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#fruits .Orange{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 450px;
+    margin-top: -558px;
+}
+#fruits .brinjal{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:550px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 850px;
+    margin-top: -558px;
+}
+#fruits .otherfru{
+    border:5px;
+    border-style:solid;
+    border-color: transparent;
+    height:200px;
+    width:280px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 429px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#order .place{
+    border:5px;
+    border-style: double;
+    width:560px;
+    height:750px;
+    background: rgba(241, 241, 241, 0.648);
+    margin-left: 320px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+#order input[type="text"]{
+    width:375px;
+}
+#order input[type="text"]:hover{
+    background-color: orange;
+    color: white;
+}
+#order select{
+    width:375px;
+    margin-left: 50px;
+}
+#order select:hover{
+    background-color: orange;
+    color: white
+}
+#order input[type="tel"]
+{
+    width:375px;
+}
+#order input[type="tel"]:hover{
+    background-color: orange;
+    color: white;
+}
+#order textarea{
+    width:375px;
+    margin-left: 50px;
+    height:150px;
+}
+#order textarea:hover{
+    background-color: orange;
+    color:white;
+}
+#order input[type="email"]
+{
+    width:375px;
+}
+#order input[type="email"]:hover{
+    background-color: orange;
+    color: white;
+}
+#order button{
+    background-color: green;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+#order button:hover{
+    background-color: orange;
+    color: white;
+}
